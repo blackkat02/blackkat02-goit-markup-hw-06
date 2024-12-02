@@ -72,6 +72,18 @@ a:focus {
     color: #404BBF;
 }
 
+.logo {
+    display: inline-block;
+    color: var(--iris);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -125,15 +137,9 @@ image {
     align-items: center;
 }
  
-.logo {
-    display: inline-block;
-    color: var(--iris);
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+
+
+.logo-link-header {
     padding: 24px 0;
     margin-right: 76px;
 }
@@ -356,7 +362,7 @@ image {
     justify-content: space-between;
 }
 
-.logo-logo{
+.logo-link-footer {
     display: inline-block; 
     margin-bottom: 16px;
 }
