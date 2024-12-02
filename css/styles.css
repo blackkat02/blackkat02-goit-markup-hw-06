@@ -356,7 +356,7 @@ image {
     justify-content: space-between;
 }
 
-footer a {
+footer .logo .logo-logo{
     display: inline-block; 
     margin-bottom: 16px;
 }
