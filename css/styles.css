@@ -358,12 +358,21 @@ image {
 
 .footer-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .logo-link-footer {
-    display: inline-block; 
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
     margin-bottom: 16px;
 }
 .logo-footer {
