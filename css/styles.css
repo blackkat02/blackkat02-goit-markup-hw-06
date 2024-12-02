@@ -59,6 +59,7 @@ ol {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
     font-family: 'Roboto', sans-serif; 
     font-size: 16px;
@@ -214,7 +215,7 @@ image {
 
 /* #region Basic principles section */
 .principles-section {
-    padding-top: 123px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -260,7 +261,7 @@ image {
 
 .team-section h2 {
     text-align: center;
-    margin-bottom: 74px;
+    margin-bottom: 72px;
 }
 
 .team-list-item {
@@ -335,7 +336,6 @@ image {
 .portfolio-section .app-card h3 {
     text-align: left;
     margin-bottom: 8px;
-    margin: 0 auto;
 }
 
 .portfolio-section p {
