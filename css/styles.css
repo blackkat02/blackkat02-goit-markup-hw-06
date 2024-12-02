@@ -94,7 +94,6 @@ button {
     display: inline-block;
     font-family: inherit;
     background-color: transparent;
-    border: none;
     border: 1px solid transparent;
 }
 
@@ -135,11 +134,11 @@ image {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding: 24px 0;
+    margin-right: 76px;
 }
 
 .logo-header {
     color: var(--navy-blue);
-    margin-right: 76px
 }
 
 .header-nav-list,
@@ -205,6 +204,7 @@ image {
     margin: 0 auto;
     padding:16px 32px;
     border-radius: 4px;
+    border: none;
 }
 
 .btn:hover, .btn:focus {
@@ -213,7 +213,7 @@ image {
 /* #endregion */
 
 /* #region Basic principles section */
-.principles-container {
+.principles-section {
     padding-top: 123px;
     padding-bottom: 120px;
 }
@@ -252,24 +252,25 @@ image {
 }
 
 .team-list {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 24px;
 }
 
 .team-section h2 {
-    text-align: center
+    text-align: center;
     margin-bottom: 74px;
 }
 
 .team-list-item {
     width: calc((100% - 72px) / 4);
     background: var(--white);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-item img {
-    border-radius: 0px 0px 4px 4px;
+    display: block;
 }
 
 .team-card {
@@ -318,6 +319,7 @@ image {
 }
 
 .portfolio-list-item img {
+    display: block;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -330,7 +332,7 @@ image {
     border-top: none;
 }
 
-.portfolio-section h3 {
+.portfolio-section .app-card h3 {
     text-align: left;
     margin-bottom: 8px;
     margin: 0 auto;
@@ -354,7 +356,7 @@ image {
     justify-content: space-between;
 }
 
-footer .logo {
+footer a {
     display: inline-block; 
     margin-bottom: 16px;
 }
