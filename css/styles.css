@@ -556,12 +556,11 @@ image {
   border: 1px solid transparent;
 }
 
-.mail {
+.footer-form-mail {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  min-width: 264px;
   border: 1px solid #ffffff;
   color: #ffffff;
 }
@@ -575,6 +574,7 @@ image {
   line-height: 2;
   letter-spacing: 0.04em;
   display: flex;
+  padding-left: 16px;
   margin: 0 auto;
   text-align: left;
   justify-content: center;
