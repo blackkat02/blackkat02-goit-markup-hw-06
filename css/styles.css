@@ -419,7 +419,6 @@ image {
 
 .portfolio-list-item img {
   display: block;
-
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -436,7 +435,7 @@ image {
   color: #f4f4fd;
 }
 
-.portfolio-list-overlay:hover .portfolio-img-overlay {
+.portfolio-list-item:hover .portfolio-img-overlay {
   transform: translatey(0);
 }
 
@@ -449,7 +448,7 @@ image {
   border-color: #e7e9fc;
 }
 
-.portfolio-section .app-card h3 {
+.portfolio-title h3 {
   text-align: left;
   margin-bottom: 8px;
 }
@@ -491,7 +490,7 @@ image {
 
 .footer-social {
   max-width: 208px;
-  margin-right: 40px;
+  margin-right: 80px;
 }
 
 .social-text {
@@ -554,14 +553,6 @@ image {
   gap: 24px;
   border-radius: 4px 0px 0px 0px;
   border: 1px solid transparent;
-}
-
-.footer-form-mail {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  border: 1px solid #ffffff;
   color: #ffffff;
 }
 
@@ -821,6 +812,12 @@ image {
   text-underline-offset: auto;
   text-underline-position: from-font;
   color: var(--iris);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .modal-btn {
