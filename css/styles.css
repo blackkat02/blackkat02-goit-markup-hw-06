@@ -33,7 +33,7 @@ h2 {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 
 @media only screen and (min-width: 1158px) {
@@ -51,7 +51,6 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-
 
 p {
   color: var(--slate);
@@ -175,7 +174,6 @@ image {
 
 @media only screen and (min-width: 767px) {
   .header-container {
-
     padding: 16px 16px 0 16px;
   }
 }
@@ -186,7 +184,6 @@ image {
     padding: 24px 24px 0 24px;
   }
 }
-
 
 @media only screen and (min-width: 767px) {
   .header-nav {
@@ -210,7 +207,7 @@ image {
 
 @media only screen and (min-width: 1158px) {
   .logo-link-header {
-    padding:  0 0 24px 0;
+    padding: 0 0 24px 0;
     margin-right: 76px;
   }
 }
@@ -241,7 +238,7 @@ image {
     gap: 40px;
     list-style: none;
   }
-}  
+}
 
 @media screen and (min-width: 768px) {
   .header-address-list {
@@ -263,7 +260,8 @@ image {
 
 .header-nav-link {
   position: relative;
-  display: inline-block;padding-top: 8px;
+  display: inline-block;
+  padding-top: 8px;
   padding-bottom: 24px;
   font-weight: 500;
   line-height: 1.5;
@@ -272,7 +270,7 @@ image {
 
 @media screen and (min-width: 1158px) {
   .header-nav-link {
-    padding:  0 0 24px 0;
+    padding: 0 0 24px 0;
   }
 }
 
@@ -308,7 +306,7 @@ image {
 
 @media screen and (min-width: 1158px) {
   .header-address-link {
-    padding:  0 0 24px 0;
+    padding: 0 0 24px 0;
   }
 }
 
@@ -323,10 +321,6 @@ image {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
-}
-
-.header-burger-btn {
-
 }
 
 .header-burger-btn:hover,
@@ -409,15 +403,21 @@ image {
   .hero {
     max-width: 1440px;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                      url(../images/hero/people-office-desk@1x.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-desk@1x.jpg);
   }
 }
 
 @media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                      url(../images/hero/people-office-desk@1x.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office-desk@1x.jpg);
   }
 }
 
@@ -530,7 +530,7 @@ image {
 .section-list-item h3 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,11;
+  line-height: 1, 11;
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
@@ -829,8 +829,6 @@ image {
   align-items: center;
 }
 
-
-
 @media only screen and (min-width: 1158px) {
   .footer-container-logo {
     margin-right: 120px;
@@ -1011,7 +1009,7 @@ image {
   width: 100%;
   height: 100%;
   z-index: 999;
-  /* opacity: 0; */
+  opacity: 0;
   transition: opacity var(--transition-hover-focus),
     visibility var(--transition-hover-focus);
 }
@@ -1027,10 +1025,6 @@ image {
 }
 
 .mobile-menu-container {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start; */
   height: 100%;
   position: relative;
   padding: 72px 16px 40px;
@@ -1132,25 +1126,6 @@ image {
     padding: 72px 24px 24px;
   }
 }
-
-.modal-close-btn {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 24px;
-  height: 24px;
-  padding: 0;
-  border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  color: var(--navy-blue);
-  background-color: var(--cornflower);
-  transition: background-color var(--transition-hover-focus),
-    border var(--transition-hover-focus);
-}
-
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   border: none;
